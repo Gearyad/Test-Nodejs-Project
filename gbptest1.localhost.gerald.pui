@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!DOCTYPE PRJ SYSTEM "gbptest1.localhost.gerald.dtd">
+<PRJ>
+  <Folder Name="/home/gerald/gbptest1/">
+    <Expand>0</Expand>
+  </Folder>
+  <Project_Information>
+    <Project_Start>29000000380000000E000000010000000100000070000000030000001F00000000000000000000008070000000000000D034EE0300000000E8</Project_Start>
+  </Project_Information>
+  <Active_Settings>
+    <Active_File_Display_Mode>-1</Active_File_Display_Mode>
+    <Active_File>/home/gerald/gbptest1/package.json</Active_File>
+  </Active_Settings>
+  <Folder Name="/home/gerald/gbptest1/ - /home/gerald/gbptest1/.git/"/>
+</PRJ>
