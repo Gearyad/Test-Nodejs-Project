@@ -1,0 +1,24 @@
+<div id="signup_page" data-role="page" class="page-container">
+	
+	<div class="page-header" data-role="header" data-position="inline">
+		<a href="/" data-direction="reverse" data-prefetch>Home</a>
+		<h1>Sign Up Form</h1>
+		<a href="/signin" data-prefetch>Sign In</a>
+	</div><!-- /header -->
+
+	<div data-role="content" class="content-container">
+		<div class="all-container signup-container">
+			<form id="signup_form">
+				<input type="text" id="uname" name="user[uname]" class="txtinp" value="" placeholder="Username" />
+				<em class="error uname"></em>			
+				<input type="password" id="passw" name="user[passw]" class="txtinp" value="" placeholder="Password" />
+				<input type="password" id="passr" name="user[passr]" class="txtinp" value="" placeholder="Confirm password" />
+				<em class="error passw"></em>			
+				<input type="text" id="fname" name="user[fname]" class="txtinp" value="" placeholder="Your full Name" />
+				<em class="error fname"></em>			
+				<input type="submit" id="signup" value="Sign Up Now" />
+			</form>
+		</div>		
+	</div><!-- /content -->
+
+</div><!-- /page -->

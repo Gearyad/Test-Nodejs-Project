@@ -1,0 +1,44 @@
+<div id="home" data-role="page" class="page-container">
+	
+	<div class="page-header" data-role="header" data-position="inline">
+		<%
+		if(auth){
+		%>
+		<a href="/post/add" data-icon="plus" data-rel="dialog">Post</a>
+		<h1>The Website</h1>
+		<a href="/signout">Sign Out</a>
+		<%		 			
+		}else{
+		%>
+		<h1>The Website</h1>
+		<a href="/signin" class="ui-btn-right">Sign In</a>
+		<%
+		}
+		%>
+	</div><!-- /header -->
+
+	<div data-role="content" class="content-container">
+		<div class="all-container post-container">
+			<% 
+			for(var i in blog) {
+				var blogid = blog[i]._id;
+				var blogtitle = blog[i]._title;
+				var blogbody = blog[i]._body;
+				var blogdatePosted = blog[i]._datePosted;
+				var blogauthorname = blog[i]._author._name;
+			%>
+			
+			<div class="user-post-container">
+				<div class="up user-pic"><img src="/images/pic-logo.jpg" class="img-autofit" alt="Photo" /></div>
+				<div class="up user-post-title"><%= blogtitle %></div>
+				<div class="up user-post"><%= blogbody.slice(0,100) %><br /><a href="/post/view/<%= blogid %>">Read more...</a></div>
+				<div class="up user-name">by: <%= blogauthorname %></div>
+				<div class="up date-post"><%= blogdatePosted.toDateString() %></div>
+				<div class="clear"></div>
+			</div>
+			
+			<% } %>
+		</div>
+	</div><!-- /content -->
+
+</div><!-- /page -->

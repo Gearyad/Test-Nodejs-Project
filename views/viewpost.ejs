@@ -1,0 +1,28 @@
+<div id="viewpost_page" data-role="page" class="page-container">
+	
+	<div class="page-header" data-role="header" data-position="inline">
+		<a href="/" data-direction="reverse">Back</a>
+		<h1>&nbsp;</h1>
+		<a href="#">Comment</a>
+	</div><!-- /header -->
+
+	<div data-role="content" class="content-container">
+		<div class="all-container view-container">
+			<h2><%= blog._title %></h2>
+			<h5>Posted by: <%= blog._author._name %>
+				<br />Date Posted: <%= blog._datePosted.toDateString() %></h5>
+			<p class="blog-body"><%= blog._body %></p>
+			<div>
+				<h4>Comments</h4>
+				
+			<% 
+			for(var i in blog._comment) {
+			%>
+			<%
+			}
+			%>
+			</div>
+		</div>
+	</div><!-- /content -->
+
+</div><!-- /page -->	

@@ -1,0 +1,21 @@
+{
+  "author": "Gerald B. Picazo <gerald@huubla.com>",
+  "name": "Test-Nodejs-Project",
+  "description": "Mobile blog",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "start": "app"
+  },
+  "engines": {
+    "node": ">= 0.4.7"
+  },
+  "dependencies": {
+  	, "express": "2.5.5"
+  	, "ejs": "0.6.1"
+  	, "mongoose": "2.4.10"
+  	, "mongodb": "0.9.7"
+  	}
+}

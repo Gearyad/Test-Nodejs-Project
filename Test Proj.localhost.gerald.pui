@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!DOCTYPE PRJ SYSTEM "Test Proj.localhost.gerald.dtd">
+<PRJ>
+  <Folder Name="">
+    <Expand>0</Expand>
+  </Folder>
+  <Folder Name="/home/gerald/Test-Nodejs-Project/"/>
+  <Folder Name="/home/gerald/Test-Nodejs-Project/ - /home/gerald/Test-Nodejs-Project/routes/"/>
+  <Folder Name="/home/gerald/Test-Nodejs-Project/ - /home/gerald/Test-Nodejs-Project/views/"/>
+  <Folder Name="/home/gerald/Test-Nodejs-Project/ - /home/gerald/Test-Nodejs-Project/public/ - /home/gerald/Test-Nodejs-Project/public/javascripts/"/>
+  <Folder Name="/home/gerald/Test-Nodejs-Project/ - /home/gerald/Test-Nodejs-Project/public/"/>
+  <Project_Information>
+    <Working_Time>-3730879162277625</Working_Time>
+    <Project_Start>29000000380000000E000000010000000100000070000000030000001F00000000000000000000008070000000000000D034EE0300000000E8</Project_Start>
+  </Project_Information>
+  <Folder Name="/home/gerald/Test-Nodejs-Project/ - /home/gerald/Test-Nodejs-Project/controllers/"/>
+  <Folder Name="/home/gerald/Test-Nodejs-Project/ - /home/gerald/Test-Nodejs-Project/public/ - /home/gerald/Test-Nodejs-Project/public/stylesheets/"/>
+  <Active_Settings>
+    <Active_File_Display_Mode>-1</Active_File_Display_Mode>
+  </Active_Settings>
+  <Folder Name="/home/gerald/Test-Nodejs-Project/ - /home/gerald/Test-Nodejs-Project/models/"/>
+  <Folder Name="/home/gerald/Test-Nodejs-Project/ - /home/gerald/Test-Nodejs-Project/logicProcessor/"/>
+</PRJ>

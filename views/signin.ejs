@@ -1,0 +1,22 @@
+<div id="signin_page" data-role="page" class="page-container">
+	
+	<div class="page-header" data-role="header" data-position="inline">
+		<a href="/" data-direction="reverse">Home</a>
+		<h1>Sign In Form</h1>
+		<a href="/signup" data-prefetch>Sign Up</a>
+	</div><!-- /header -->
+
+	<div data-role="content" class="content-container">
+		<div class="all-container signin-container">
+			<em class="<%= msgType %>"><%= message %></em>
+			<form id="signin_form" action="/signin" method="post">
+				<input type="text" name="username" id="username" class="txtinp" value="" placeholder="Username" />
+				<input type="password" name="password" id="password" class="txtinp" value="" placeholder="Password" />
+					<input type="checkbox" id="remember-me-input" />
+					<label for="remember-me-input">Remember Me</label>
+					<input type="submit" id="login" value="Sign In" />
+			</form>
+		</div>		
+	</div><!-- /content -->
+
+</div><!-- /page -->
